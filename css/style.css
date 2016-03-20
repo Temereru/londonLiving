@@ -1,0 +1,230 @@
+section {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#Book {
+	display: inline;
+	font-size: 1em;
+	font-weight: 700;
+	color: #FF7322;
+	border: 2px solid #FF7322;
+	text-transform: uppercase;
+	float: right;
+	margin-left: 10px;
+	margin-right: -15px;
+}
+
+#Book a , .aparType a{
+	text-decoration: none;
+	color: #FF7322;
+	padding: 15px;
+	line-height: 20px;
+	display: block;
+	overflow: hidden;
+	font-weight: 700;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+#Book li {
+	position: relative;
+	display: block;
+
+}
+
+#container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: 0;
+	margin-left: 0;
+	display: block;
+	height: auto;
+}
+
+#logo {
+	float: left;
+	margin-left: -15px;
+	margin-right: 10px;
+}
+
+.nav div {
+}
+
+.nav img {
+	height: 50px;
+	width: 150px;
+}
+
+.nav ul {
+	float: right;
+	display: block;
+}
+
+.nav ul li {
+	position: relative;
+	line-height: 50px;
+	float: left;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	padding: 15px;
+	font-weight: 400;
+	color: #5a5a5a;
+	font-size: 14px;
+}
+
+.nav {
+	padding: 10px 40px;
+	border-bottom: 1px solid #e7e7e7;
+	background-color: #fff;
+}
+
+#banner {
+	height: 80vh;
+	width: 100%;
+	margin-bottom: 60px;
+	background: url('http://city-living.london/wp-content/themes/cityliving-wp-theme/img/x1-3.jpg.pagespeed.ic.H9S-TP6AwB.webp') center;
+	background-size: cover;
+	text-align: center;
+}
+
+#outerwrapper {
+	height: 80vh;
+	width: 100%;
+}
+
+#wrapper {
+	position: relative;
+	left: 0;
+	top: 50%;
+	right: 20%;
+	margin: 0 10%;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	transform: translateY(-50%);
+}
+
+#banner h2 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.aparType {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FF7322;
+	border: 2px solid #FF7322;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	padding: 10px 16px;
+	white-space: nowrap;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.col-6 {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-6 h1 {
+	font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #5a5a5a;
+}
+.mute {
+	color: #777;
+}
+
+.col-6 p {
+	color: #5a5a5a;
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 29.4px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#apartments {
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#aparImg {
+	margin-left: 8.3333333%;
+	float: left;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#aparImg img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#container:before, #logo:before, .nav ul:before {
+	display: table;
+	content: "";
+}
+#container:after, #logo:after, #Book:after, .nav ul:after {
+	clear: both;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ margin: 0;
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
